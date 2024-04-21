@@ -7,7 +7,7 @@ const app = express();
 const PORT = process.env.PORT || 8000;
 
 
-mongoose.connect('mongodb://localhost:27017/your-database-name', {
+mongoose.connect('mongodb://localhost:27017/db', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
